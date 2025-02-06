@@ -22,4 +22,4 @@ pip install -r requirements.txt
 
 ## 3. Run the Test 
 
-```robot tests/testTodo.robot````
+`robot tests/testTodo.robot`
