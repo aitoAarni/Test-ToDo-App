@@ -1,11 +1,3 @@
-# to initialize run
-You will need a chrome driver to execute the tests and after follow the steps to run the tests
-python -m venv venv # On Windows
-python3 -m venv venv # On Linux
-source venv/bin/activate # On Linux
-venv\Scripts\activate # On Windows
-pip install -r requirements.txt
-
 # Running the Tests
 
 To run the tests in the `./tests/testTodo.robot` file, follow these steps:
