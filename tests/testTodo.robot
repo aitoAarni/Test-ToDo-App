@@ -14,3 +14,11 @@ Create ToDo Item In ELM App
     sleep  1s
     Close Browser
 
+Create ToDO Item In Angluar App
+    Open Browser  ${ANGULAR URL}  chrome
+    Wait Until Element Is Visible  xpath=/html/body/ng-view/section/header/form/input  timeout=5s
+
+    Input Text  xpath=/html/body/ng-view/section/header/form/input  text=My Todo Item
+    Press Key  xpath=/html/body/ng-view/section/header/form/input  \ue007
+    Wait Until Element Contains  xpath=/html/body/ng-view/section/section/ul/li/div/label  text=My Todo Item
+    Close Browser
